@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Quiz</title>
+	<script>
+    
+var score = 0
+var i = 1
+var ans = 1
+function submitAnswer(){
+    y = document.getElementById("qans").value
+    var yy=y.toUpperCase();
+    x = document.getElementById("question").value
+if (ans===1){
+    y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+        score++
+        
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===2){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===3){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===4){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===5){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===6){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===7){ 
+	y = document.getElementById("qans").value
+    if(yy==="C"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===8){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===9){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===10){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+
+	ans++; 
+}
+        
+
+function main(){
+if (i===1){
+	document.view.qnum.value=i;
+   	document.view.question.value ="Which of the following is an input device? \na)Fan \nb)Keyboard \nc)RAM \nd)CPU";
+    document.view.qans.value=""
+}
+else if (i===2){
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which of the following is an input device? \na)Computer Monitor \nb)Headphones \nc)Projector \nd)All of the Above";
+    document.view.qans.value=""
+}
+    else if (i===3){
+	document.view.qnum.value=i;	
+	document.view.question.value ="What is Cloud Computing? \na)Using the Internet to store, manage, and process data, rather than a local server or a personal computer. \nb)This is the standard markup language for documents designed to be displayed in a web browser. \nc)Storing Files Online \nd)A computer in the sky";
+    document.view.qans.value=""
+}
+    else if (i===4){
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which is a Cloud Computing Company? \na)Microsoft. \nb)Apple. \nc)Amazon \nd)All of the above";
+    document.view.qans.value=""
+}
+    else if (i===5){
+	document.view.qnum.value=i;		
+    document.view.question.value ="What does CSS stand for? \na)Inline CSS. \nb)Internal CSS. \nc)External CSS \nd)Cascading Style Sheet";
+    document.view.qans.value=""
+}
+    else if (i===6){
+	document.view.qnum.value=i;	
+	document.view.question.value ="Are there three types of CSS? \na)Yes. \nb)No. \nc)I don't know \nd)Maybe";
+    document.view.qans.value=""
+}
+    else if (i===7){
+	document.view.qnum.value=i;		
+    document.view.question.value ="What does HTML stand for? \na)A Programming Language. \nb)Not JavaScript. \nc)HyperText Markup Language \nd)Three Words in one Acroynm";
+    document.view.qans.value=""
+}
+    else if (i===8){
+	document.view.qnum.value=i;	
+	document.view.question.value ="Are there three types of CSS? \na)All Of The Above \nb)TextEdit \nc)TextEditor \nd)Notepad";
+    document.view.qans.value=""
+}
+    else if (i===9){
+	document.view.qnum.value=i;		
+    document.view.question.value ="What does JS Stand for? \na)EMCAScript. \nb)JavaScript. \nc)Another Programming Language. \nd)Something to do with HTML";
+    document.view.qans.value=""
+}
+    else if (i===10){
+	document.view.qnum.value=i;	
+	document.view.question.value ="What is JavaScript? \na)Another name for Java \nb)A scripting language mostly for the web. \nc)When you use Java without compiling \nd)An open-source programming language developed and maintained by Microsoft.";
+    document.view.qans.value=""
+}
+
+
+	i++; 
+}
+    </script>
+
+</head>
+
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+<br>
+<FORM name="view">  
+	Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
+    <br>
+    <br>
+    Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
+	<br>
+    <br>
+    Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "qscore" name="qscore" size="2">
+	<br>
+	<br>
+    <TEXTAREA COLS=31 ROWS=9 id="question"  wrap="virtual"></TEXTAREA> 
+    <br>
+    <input type="reset" value="Try Again">
+
+</FORM>
+</body>
+
+</html>
